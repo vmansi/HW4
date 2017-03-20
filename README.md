@@ -18,8 +18,13 @@ P3, P4
 
 P2,P3, P4
 
-2.Train a Seq2Seq model on Cornell Movie datset. We also created a datset of 120 very commonly used dialogs in Star Trek series. The Seq2Seq model generates a reply to the input post. The Star Trek datset is used to find a dialog that has the maximum liklihood (unigrams)
-of follwoing the dialog the Seq2Seq model generates. 
+2.Train a Seq2Seq model on Cornell Movie datset. We also created a datset of 120 very commonly used dialogs in Star Trek series. The Seq2Seq model generates a reply to the input post. The Star Trek datset is used to find a dialog that has the maximum liklihood (unigrams) of follwoing the dialog the Seq2Seq model generates. Not good results. (A few sentences getting repeated.)
+
+Tried to take 5 most liklely sentences, and then chose 1 at random.
+
+Also, tried to build a very high quality Star Trek dialogs set, containing dialogs that are very generic and might go along with any sentence.
+
+These things improved the final output. But still not satisfactory.
 
 Model Evaluation:
 
@@ -48,7 +53,7 @@ Bucket 3: 15.26
 
 For the model which was trained using Cornell Movie dataset:
 
-Train Perplexity: 
+Train Perplexity: 12.86
 
 Cross Validation Perplexity:
 
