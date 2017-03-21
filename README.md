@@ -1,7 +1,7 @@
 # HW4
 Aim: 
 
-We want to build a chatbot that can have conversation on day to day topics in Star Trek manner.
+We want to build a chatbot that can have conversation on day to day topics in Star Trek manner. This is continued as our final project at https://github.com/GJena/CIS-700-7_Chatbot-Project
 
 Dataset: We tried 2 approaches:
 
